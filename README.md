@@ -10,7 +10,7 @@ Di Codex dan agent lain: `Pakai skill $peta-buku untuk membuat infografis dari <
 
 Contoh: `Pakai $peta-buku untuk buku ini. Petakan pengalaman reformasi arsitektur digital dan tarik pelajaran bagi AI Policy Kemenkeu.`
 
-Skill dapat membaca PDF, PPT/PPTX, Markdown, DOCX, gambar, dan format lain sepanjang lingkungan agent menyediakan pembaca atau OCR yang sesuai. Hasil gambar membutuhkan alat pembuat gambar atau slide yang tersedia di lingkungan tersebut. Skill ini sendiri tidak mengirim dokumen ke layanan mana pun.
+Skill dapat membaca PDF, PPT/PPTX, Markdown, DOCX, gambar, dan format lain sepanjang lingkungan agent menyediakan pembaca atau OCR yang sesuai. Hasil gambar membutuhkan alat pembuat gambar atau slide yang tersedia di lingkungan tersebut.
 
 ## Pasang
 
