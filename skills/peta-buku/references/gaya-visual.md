@@ -1,35 +1,32 @@
 # Gaya visual peta buku
 
-**Buka kelima PNG ini sebagai gambar setiap kali membuat peta.** Mereka adalah acuan visual, bukan sumber klaim atau isi yang boleh disalin ke tugas lain. Gambar `00` adalah acuan utama karena pengguna memilihnya sebagai contoh yang paling terverifikasi.
+**Acuan visual tunggal:** buka [AI-Driven University](00_genai_framework_ai_driven_university.png) sebagai gambar sebelum mulai. Empat PNG lain dalam folder ini adalah arsip. Gunakan hanya jika pengguna secara eksplisit meminta acuan lain. Isi dan sitasi acuan tidak boleh disalin ke peta sumber baru.
 
-0. [AI-Driven University](00_genai_framework_ai_driven_university.png): acuan utama untuk hierarki visual. Hasil di atas, fungsi inti di tengah, prasyarat serta tata kelola lintas fungsi, lalu siklus tindakan dan satu kalimat kesimpulan di bawah. Perhatikan rujukan kecil yang dekat dengan setiap klaim dan pemisahan masalah awal di panel kiri.
-1. [EU AI Act](01_eu_ai_act_peta_kerangka_berpikir_v3.png): jalur dari ruang lingkup dan peran menuju kewajiban, pengawasan, dan penegakan. Perhatikan panel kiri, empat kartu utama, pita merah, dan alur bawah.
-2. [OECD Digital Government Outlook 2026](02_oecd_2026_peta_kerangka_berpikir_v2.png): fondasi, kapabilitas, enablers, guardrails, engagement, lalu dampak layanan. Perhatikan pita lintas komponen yang dibedakan menurut fungsinya.
-3. [NIST AI RMF 1.0](03_nist_ai_rmf_peta_kerangka_berpikir_v3.png): konteks risiko, fungsi inti, tata kelola sepanjang siklus, profil, dan umpan balik. Perhatikan panah dua arah dan loop yang menunjukkan iterasi.
-4. [Reformasi arsitektur digital](04_bobby_nazief_pelajaran_ai_policy_v3.png): kondisi awal, evolusi, sistem, pilihan arsitektur, lalu implikasi yang ditandai `SINTESIS`. Perhatikan pemisahan isi sumber dari pelajaran yang ditarik.
+## Geometri acuan
 
-Kelima gambar memakai bahasa desain yang sama dengan topologi yang berbeda. Tiru bahasa desainnya; pilih bentuk alur dari materi yang sedang dibaca. Jangan membawa nama, angka, atau klaim dari contoh ke peta baru.
+Koordinat berikut mengacu pada kanvas 960×540. Skalakan semua posisi, ketebalan garis, dan huruf secara seragam. Render final minimal 1920×1080; 2880×1620 lebih baik untuk teks kecil. Ikuti komposisi ini secara presisi, lalu ubah kata dan ikon sesuai sumber.
 
-- Kanvas landscape 16:9, latar putih, ruang tepi rapi. Judul navy sangat besar di kiri atas, diikuti satu kalimat yang menyatakan alur atau pesan utama.
-- Panel kiri abu kebiruan merangkum kondisi awal, masalah, peran, atau konteks. Ikon garis navy dan aksen merah membantu membedakan masalah yang benar-benar disebut sumber.
-- Jika sumber memiliki sampul, letakkan miniatur sampul asli di dekat panel konteks. Jaga proporsinya dan beri label singkat agar pembaca mengenali dokumennya.
-- Area utama dibatasi garis navy tipis atau rel putus-putus. Kartu putih bersudut membulat, ikon garis atau lingkaran navy, tab navy gelap, dan panah yang jelas menunjukkan urutan, keterkaitan, percabangan, atau iterasi.
-- Tampilkan kelompok dengan jumlah resmi sumber di dalam satu bingkai yang bertajuk eksplisit, misalnya `4 AREA FOKUS`. Beri satu kartu untuk setiap anggota dan periksa jumlahnya terhadap sumber. Jangan biarkan daftar kelompok terpecah ke pita lain tanpa penanda hubungan.
-- Pita berwarna menandai unsur yang melintasi beberapa kartu. Pakai merah untuk kewajiban, pengawasan, prinsip pengendali, atau implikasi bila hubungan itu didukung sumber. Warna lain boleh dipakai bila peran semantiknya jelas, seperti `enablers` pada contoh OECD.
-- Pita navy di bawah merangkum keputusan, tahapan akhir, atau pesan penutup yang memang mengikuti isi peta. Footer kecil namun terbaca memuat sumber dan catatan batas interpretasi.
-- Palet dominan navy, putih, abu kebiruan, dengan merah sebagai aksen. Gunakan tipografi sans serif yang tegas dan ikon garis datar yang konsisten. **Jangan jadikan ilustrasi 3D, pulau isometrik, foto, atau dekorasi generatif sebagai pusat komposisi** kecuali pengguna secara khusus meminta gaya lain.
-- Ikuti acuan `00` untuk hierarki huruf: judul besar dengan sans serif padat, label kelompok tebal, isi kartu ringkas, dan sitasi lebih kecil tetapi terbaca. Pilih font yang benar-benar tersedia. Ukur setiap teks terhadap ruangnya, lalu tinjau hasil pada ukuran asli dan 960×540. Gambar simbol alur sebagai bentuk agar tidak berubah menjadi kotak akibat font.
-- Letakkan nomor rujukan pada atau tepat di bawah kartu terkait. Pastikan ukuran rujukan masih terbaca saat slide diproyeksikan. Gunakan pasal, bab, atau halaman sesuai sumber.
-- Ambil hanya pola desain dari kelima PNG. Jangan salin isi, data, atau lambang khusus suatu sumber ke pekerjaan lain. Jika pengguna memberi contoh visual baru, gunakan sebagai arahan untuk tugas itu.
+- Judul navy besar mulai sekitar `(18, 18)`, disusul satu baris subtitel. Subtitel harus berakhir sebelum tab baris atas.
+- Panel konteks abu muda di kiri: `x=20–219, y=97–440`. Judul merah, ikon utama, daftar ringkas dengan pemisah tipis, dan satu konsekuensi merah di bawah.
+- Panah tebal navy mengarah dari panel kiri ke area utama pada `x=230–304, y≈234`. Label hubungan berada di bawah panah. Sampul sumber asli di `x=225–313, y=381–507`, dengan proporsi terjaga.
+- Rel vertikal navy putus-putus membingkai area utama di `x≈318` dan `x≈922`, dari `y≈106` sampai `y≈433`.
+- Pita hasil atas: bingkai `x=350–892, y=81–130`, tab navy `y=62–83`. Isi disekat tipis dan punya sitasi dekat klaim.
+- Tiga kartu utama: `x=341–511`, `541–710`, `740–908`; `y=145–257`. Masing-masing memiliki ikon putih dalam lingkaran navy, judul, rujukan, garis tipis, dan penjelasan singkat tentang mekanismenya. Bila ada lebih dari tiga gagasan utama, pilih tiga yang menjawab pertanyaan pengguna atau buat seri peta. Jangan hanya menaruh nama program.
+- Baris pendukung: bingkai `x=333–908, y=281–329`, tab navy di atasnya. Tempatkan komponen pendukung sumber dalam satu kelompok bernama dan bernomor bila sumber menyebut jumlahnya.
+- Baris merah: bingkai `x=331–909, y=346–405`, tab merah di atasnya. Isi dengan prinsip atau kriteria lintas program yang benar-benar dinyatakan sumber. Sorot kartu pertama dengan garis merah.
+- Empat kartu aksi navy: `y=413–446`, dengan panah kecil di antaranya. Pakai hanya untuk langkah yang dapat dipertanggungjawabkan sebagai urutan. Bila urutannya hasil sintesis, tandai sebagai sintesis. Jangan mengubah kegiatan paralel menjadi langkah berurutan.
+- Pita kesimpulan navy: `x=451–910, y=454–502`. Satu kalimat yang merangkum hubungan utama. Footer sumber pada `y≈516`, dengan garis navy tipis memanjang ke kanan.
 
-Pola komposisi yang cocok untuk materi reformasi: `kondisi awal → evolusi/pendekatan → sistem atau komponen → pilihan arsitektur → implikasi → kesimpulan`. Untuk buku dengan logika berbeda, ubah arah panah dan jenis pita agar sesuai argumen asli.
+## Huruf, warna, dan ikon
 
-## Pelajaran dari seri infografis awal
+- Cocokkan bentuk huruf acuan: judul memakai sans serif tebal yang lebar, seperti Arial Bold. Label dan isi kartu memakai sans serif padat, seperti Arial Narrow Bold dan Arial Narrow. Jangan memakai font dekoratif atau judul yang terlalu sempit.
+- Gunakan navy tua `#00225d`, putih, panel abu `#f0f2f5`, garis biru muda, dan merah `#db111b`. Warna merah menandai satu lapisan penekanan, bukan dekorasi acak.
+- Ikon utama: garis putih pada lingkaran navy. Ikon pada pita: garis navy pada bidang putih. Gambar ikon dan panah sebagai bentuk vektor atau raster terprogram agar tidak bergantung pada dukungan simbol font.
+- Rujukan berada pada kartu yang memuat klaim. Pertahankan ukuran terbaca pada pratinjau 960×540; ringkas teks lebih dahulu sebelum mengecilkan huruf.
 
-- **AI-Driven University:** peta bergerak dari penggunaan alat yang terpecah menuju kemampuan institusi. Area utama memuat hasil, fungsi universitas, prasyarat, tata kelola, dan siklus penerapan. Hubungan antarlapisan lebih penting daripada ringkasan bab berurutan.
-- **EU AI Act:** regulasi dibaca sebagai jalur keputusan. Mulai dari ruang lingkup serta peran, lalu klasifikasi jalur kewajiban, pengawasan, dan penegakan. Panah harus menunjukkan urutan penerapan hukum yang didukung pasal, bukan memberi kesan semua kategori saling eksklusif.
-- **NIST AI RMF 1.0:** kerangka dibaca sebagai pengelolaan risiko berulang. Konteks risiko memberi masukan pada fungsi inti, tata kelola melintasi seluruh fungsi, dan profil membantu menentukan tindakan. Panah melingkar membantu menunjukkan iterasi.
-- **OECD Digital Government Outlook 2026:** laporan dibaca dari tantangan awal menuju fondasi, kapabilitas, adopsi AI, serta dampak layanan. Pita pendukung seperti *enablers* atau *guardrails* dipakai bila memang ada dalam laporan dan rujukannya dapat ditunjuk.
-- **Pelajaran reformasi arsitektur digital:** peta sejarah dan pilihan arsitektur dapat diarahkan ke pertanyaan baru. Bagian yang ditarik sebagai pelajaran untuk AI Policy diberi label `SINTESIS`, terpisah dari hal yang dikisahkan buku.
+## Pemeriksaan sebelum kirim
 
-Contoh ini menunjukkan beberapa bentuk alur. Jangan menyalin klaim, sitasi, atau susunan panelnya ke materi baru tanpa memeriksa sumber baru tersebut.
+1. Buka gambar acuan dan hasil secara berdampingan pada 960×540. Bandingkan setiap kotak, jarak, garis, sampul, ukuran huruf, dan pola ikon.
+2. Ukur seluruh kotak teks. Pastikan teks dan ikon berada di dalam panel, tidak bersinggungan dengan garis atau tab, serta tidak muncul sebagai kotak kosong.
+3. Periksa setiap kelompok bernomor terhadap sumber. Periksa nama, jumlah, hubungan, rujukan, dan arti panah. Tinjau hasil pada resolusi final dan 960×540.
+4. Bila informasi penting tidak muat dalam pola acuan, bagi materi menjadi beberapa peta dengan pola visual yang sama.
