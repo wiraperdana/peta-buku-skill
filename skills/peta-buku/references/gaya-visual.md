@@ -7,7 +7,7 @@
 Koordinat berikut mengacu pada kanvas 960×540. Skalakan semua posisi, ketebalan garis, dan huruf secara seragam. Render final minimal 1920×1080; 2880×1620 lebih baik untuk teks kecil. Ikuti komposisi ini secara presisi, lalu ubah kata dan ikon sesuai sumber.
 
 - Judul navy besar mulai sekitar `(18, 18)`, disusul satu baris subtitel. Subtitel harus berakhir sebelum tab baris atas.
-- Panel konteks abu muda di kiri: `x=20–219, y=97–440`. Judul merah, ikon utama, daftar ringkas dengan pemisah tipis, dan satu konsekuensi merah di bawah.
+- Panel konteks abu muda di kiri: `x=20–219, y=97–440`. Judul merah, tiga kotak ikon dengan satu di atas dan dua di bawah, garis pemisah, daftar ringkas, dan satu konsekuensi merah di bawah.
 - Panah tebal navy mengarah dari panel kiri ke area utama pada `x=230–304, y≈234`. Label hubungan berada di bawah panah. Sampul sumber asli di `x=225–313, y=381–507`, dengan proporsi terjaga.
 - Rel vertikal navy putus-putus membingkai area utama di `x≈318` dan `x≈922`, dari `y≈106` sampai `y≈433`.
 - Pita hasil atas: bingkai `x=350–892, y=81–130`, tab navy `y=62–83`. Isi disekat tipis dan punya sitasi dekat klaim.
