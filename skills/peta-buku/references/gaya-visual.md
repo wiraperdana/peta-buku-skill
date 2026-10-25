@@ -12,10 +12,13 @@ Kelima gambar memakai bahasa desain yang sama dengan topologi yang berbeda. Tiru
 
 - Kanvas landscape 16:9, latar putih, ruang tepi rapi. Judul navy sangat besar di kiri atas, diikuti satu kalimat yang menyatakan alur atau pesan utama.
 - Panel kiri abu kebiruan merangkum kondisi awal, masalah, peran, atau konteks. Ikon garis navy dan aksen merah membantu membedakan masalah yang benar-benar disebut sumber.
+- Jika sumber memiliki sampul, letakkan miniatur sampul asli di dekat panel konteks. Jaga proporsinya dan beri label singkat agar pembaca mengenali dokumennya.
 - Area utama dibatasi garis navy tipis atau rel putus-putus. Kartu putih bersudut membulat, ikon garis atau lingkaran navy, tab navy gelap, dan panah yang jelas menunjukkan urutan, keterkaitan, percabangan, atau iterasi.
+- Tampilkan kelompok dengan jumlah resmi sumber di dalam satu bingkai yang bertajuk eksplisit, misalnya `4 AREA FOKUS`. Beri satu kartu untuk setiap anggota dan periksa jumlahnya terhadap sumber. Jangan biarkan daftar kelompok terpecah ke pita lain tanpa penanda hubungan.
 - Pita berwarna menandai unsur yang melintasi beberapa kartu. Pakai merah untuk kewajiban, pengawasan, prinsip pengendali, atau implikasi bila hubungan itu didukung sumber. Warna lain boleh dipakai bila peran semantiknya jelas, seperti `enablers` pada contoh OECD.
 - Pita navy di bawah merangkum keputusan, tahapan akhir, atau pesan penutup yang memang mengikuti isi peta. Footer kecil namun terbaca memuat sumber dan catatan batas interpretasi.
 - Palet dominan navy, putih, abu kebiruan, dengan merah sebagai aksen. Gunakan tipografi sans serif yang tegas dan ikon garis datar yang konsisten. **Jangan jadikan ilustrasi 3D, pulau isometrik, foto, atau dekorasi generatif sebagai pusat komposisi** kecuali pengguna secara khusus meminta gaya lain.
+- Ikuti acuan `00` untuk hierarki huruf: judul besar dengan sans serif padat, label kelompok tebal, isi kartu ringkas, dan sitasi lebih kecil tetapi terbaca. Pilih font yang benar-benar tersedia. Ukur setiap teks terhadap ruangnya, lalu tinjau hasil pada ukuran asli dan 960×540. Gambar simbol alur sebagai bentuk agar tidak berubah menjadi kotak akibat font.
 - Letakkan nomor rujukan pada atau tepat di bawah kartu terkait. Pastikan ukuran rujukan masih terbaca saat slide diproyeksikan. Gunakan pasal, bab, atau halaman sesuai sumber.
 - Ambil hanya pola desain dari kelima PNG. Jangan salin isi, data, atau lambang khusus suatu sumber ke pekerjaan lain. Jika pengguna memberi contoh visual baru, gunakan sebagai arahan untuk tugas itu.
 
