@@ -22,7 +22,7 @@ cd peta-buku-skill
 
 `install.sh` membuat symlink ke `~/.claude/skills/peta-buku` dan `~/.agents/skills/peta-buku`. Perubahan di repo langsung terbaca oleh kedua harness. Untuk menghapus pemasangan, hapus dua symlink itu secara manual.
 
-Repo ini hanya memuat instruksi skill. Materi sumber dan infografis hasil tugas tetap berada di lokasi kerja pengguna.
+Repo ini memuat instruksi skill dan lima contoh visual pada `skills/peta-buku/references/`. Contoh digunakan sebagai acuan gaya, bukan sumber isi untuk tugas lain. Materi sumber dan infografis hasil tugas tetap berada di lokasi kerja pengguna.
 
 ## Lisensi
 
